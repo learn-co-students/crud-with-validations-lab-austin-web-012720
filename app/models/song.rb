@@ -12,6 +12,6 @@ class Song < ApplicationRecord
 
   def released?
     #this will return true or false from the validation on line 4
-    released
+    self.released
   end
 end
